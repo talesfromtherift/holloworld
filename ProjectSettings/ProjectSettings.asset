@@ -15,7 +15,7 @@ PlayerSettings:
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -40,7 +40,8 @@ PlayerSettings:
   m_SplashScreenLogos: []
   m_SplashScreenBackgroundLandscape: {fileID: 0}
   m_SplashScreenBackgroundPortrait: {fileID: 0}
-  m_VirtualRealitySplashScreen: {fileID: 0}
+  m_VirtualRealitySplashScreen: {fileID: 2800000, guid: 14aa718963caf194b97b2cf284a62035,
+    type: 3}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1024
   defaultScreenHeight: 768
@@ -227,7 +228,13 @@ PlayerSettings:
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 0}
+      m_Width: 128
+      m_Height: 128
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings:
@@ -517,8 +524,23 @@ PlayerSettings:
   metroCertificateIssuer: DefaultCompany
   metroCertificateNotAfter: 006969eafc2ed401
   metroApplicationDescription: HolloWorld
-  wsaImages: {}
-  metroTileShortName: 
+  wsaImages:
+    65636: Assets/icons and splash/UWP/StoreLogo.scale-100.png
+    65686: 
+    65736: Assets/icons and splash/UWP/StoreLogo.scale-200.png
+    131222: 
+    131272: Assets/icons and splash/splash.png
+    2031640: Assets/icons and splash/UWP/Target.scale-150.png
+    2031816: Assets/icons and splash/UWP/Square44x44Logo.scale-200.png
+    2097252: 
+    2097352: Assets/icons and splash/UWP/Square71x71Logo.scale-200.png
+    2162788: 
+    2162888: Assets/icons and splash/UWP/Square150x150Logo.scale-200.png
+    2228324: 
+    2228424: Assets/icons and splash/UWP/Square310x310Logo.scale-200.png
+    2293860: 
+    2293960: Assets/icons and splash/UWP/Wide310x150Logo.scale-200.png
+  metroTileShortName: HolloWorld
   metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
@@ -526,10 +548,9 @@ PlayerSettings:
   metroWideTileShowName: 0
   metroDefaultTileSize: 1
   metroTileForegroundText: 2
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
-    a: 1}
-  metroSplashScreenUseBackgroundColor: 0
+  metroTileBackgroundColor: {r: 0.19528548, g: 0.19579706, b: 0.20588237, a: 0}
+  metroSplashScreenBackgroundColor: {r: 0, g: 1, b: 0, a: 1}
+  metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
       AllJoyn: False
