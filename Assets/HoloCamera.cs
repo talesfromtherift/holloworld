@@ -32,4 +32,11 @@ public class HoloCamera : MonoBehaviour {
         scale.x = scale.y * aspectRatio;
         preview.transform.localScale = scale;
     }
+
+    public void InstantiatePhoto(GameObject prefab) {
+        Debug.Log("InstantiatePhoto");
+        GameObject go = GameObject.Instantiate(prefab, Camera.main.transform.position + Camera.main.transform.forward * 0.5f, Camera.main.transform.rotation);
+        TakePhotoToPreview(go.transform.GetChild(0).GetComponent<Renderer>());
+    }
+
 }
