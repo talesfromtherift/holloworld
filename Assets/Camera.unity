@@ -562,6 +562,7 @@ GameObject:
   - component: {fileID: 1294073236}
   - component: {fileID: 1294073235}
   - component: {fileID: 1294073234}
+  - component: {fileID: 1294073237}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -575,7 +576,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1294073233}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6951d4cd37dbbb49941e750a6da0d62, type: 3}
   m_Name: 
@@ -594,7 +595,7 @@ MonoBehaviour:
   Tap:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1294073234}
+      - m_Target: {fileID: 1294073237}
         m_MethodName: InstantiatePhoto
         m_Mode: 2
         m_Arguments:
@@ -621,6 +622,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1294073237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1294073233}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4fab9956ab0e844c965ea0cfd37ae35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397573407
 GameObject:
   m_ObjectHideFlags: 0
